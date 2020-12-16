@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-family: 'Shojumaru', cursive;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.ac-header {
+  /* The image used */
+  background-image: url("images/copy.jpg");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Full height */
+  height: 80vh;
+}
+
+@media (min-width: 992px) {
+  .c-height {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .c-height {
+    margin-top: 45px;
+  }
+
+  .caption {
+    font-size: 25px;
+  }
+}

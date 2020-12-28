@@ -31,10 +31,12 @@ h2 {
 }
 
 @media (max-width: 992px) {
+  .bspace{
+    bottom: 10px;
+  }
   .c-height {
     margin-top: 45px;
   }
-
   .caption {
     font-size: 25px;
   }

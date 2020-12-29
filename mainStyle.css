@@ -14,6 +14,10 @@ h2 {
   padding: 3% 10%;
 }
 
+.centre-content{
+  text-align: center;
+}
+
 .ac-header {
   /* The image used */
   background-image: url("images/copy.jpg");
@@ -24,9 +28,23 @@ h2 {
   height: 80vh;
 }
 
+.footer-padding{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-icon-padding{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 17px;
+}
+
 @media (min-width: 992px) {
   .c-height {
     height: 85vh;
+  }
+  .footer-align{
+    text-align: right;
   }
 }
 
@@ -46,5 +64,11 @@ h2 {
   }
   .caption {
     font-size: 25px;
+  }
+  .footer-align{
+    text-align: center;
+  }
+  .footer-align-2{
+    text-align: center;
   }
 }
